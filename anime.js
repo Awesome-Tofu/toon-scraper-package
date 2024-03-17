@@ -1,6 +1,6 @@
 // const axios = require('axios');
 const cheerio = require('cheerio');
-const config = require('../config');
+const config = require('./config');
 const Home = require('./home');
 const Category = require('./category');
 const Search = require('./search');
