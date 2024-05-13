@@ -1,16 +1,31 @@
 {
   "name": "toon-scraper-package",
-  "version": "1.2.0",
-  "description": "",
+  "version": "1.2.1",
+  "description": "Scraper for toonstream website, hindi anime website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "Tofu",
+  "author": "Awesome-tofu",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",
     "cheerio": "^1.0.0-rc.12",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awesome-Tofu/toon-scraper-package.git"
+  },
+  "keywords": [
+    "Toon-scraper",
+    "hindi-anime",
+    "anime"
+  ],
+  "bugs": {
+    "url": "https://github.com/Awesome-Tofu/toon-scraper-package/issues"
+  },
+  "homepage": "https://github.com/Awesome-Tofu/toon-scraper-package#readme"
 }

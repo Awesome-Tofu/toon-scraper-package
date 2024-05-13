@@ -1,9 +1,6 @@
 // const axios = require('axios');
 const cheerio = require('cheerio');
 const config = require('../config');
-const Home = require('./home');
-const Category = require('./category');
-const Search = require('./search');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const querystring = require('querystring');
 
