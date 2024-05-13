@@ -1,7 +1,7 @@
-const Home = require('./home');
-const Category = require('./category');
-const Search = require('./search');
-const Anime = require('./anime');
+const Home = require('./src/home');
+const Category = require('./src/category');
+const Search = require('./src/search');
+const Anime = require('./src/anime');
 
 module.exports = {
     Home,
