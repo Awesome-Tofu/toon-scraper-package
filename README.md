@@ -99,8 +99,8 @@ console.log(liveSearchResults);
 const ToonScraper = require('toon-scraper-package');
 
 // First character = 'A' and page = 1
-const liveSearchResults = await ToonScraper.Home.search_by_character('A', 1);
-console.log(liveSearchResults);
+const SearchResults = await ToonScraper.Home.search_by_character('A', 1);
+console.log(SearchResults);
 ```
 
 ### Anime
