@@ -89,7 +89,7 @@ console.log(searchResults);
 ```javascript
 const ToonScraper = require('toon-scraper-package');
 
-const liveSearchResults = await ToonScraper.Search.default_search('Naruto');
+const liveSearchResults = await ToonScraper.Search.live_search('one');
 console.log(liveSearchResults);
 ```
 
